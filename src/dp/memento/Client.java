@@ -27,9 +27,5 @@ public class Client {
         System.out.println("回到状态一:");
         user.show();
         System.out.println("------------------");
-
-        user.setPassword(c.execute());
-        System.out.println(user.getPassword());
-        user.show();
     }
 }

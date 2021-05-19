@@ -26,6 +26,10 @@ public class ThreadContext {
     {
         ((RunningState)threadState).suspend(this);
     }
+    public void stop()
+    {
+        ((RunningState)threadState).stop(this);
+    }
     public void resume()
     {
         ((BlockedState)threadState).resume(this);

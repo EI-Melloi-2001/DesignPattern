@@ -7,6 +7,6 @@ public class Client {
         ThreadContext tc = new ThreadContext();
         tc.start();
         tc.getCpu();
-        tc.suspend();
+        tc.stop();
     }
 }
